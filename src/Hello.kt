@@ -1,44 +1,37 @@
 /**
-*
-* This file is subject to the terms and conditions defined in
-* file 'LICENSE.txt', which is part of this source code package.
-*
-* Created by Valmar Junior on 26/05/17.
-**/
+ *
+ * This file is subject to the terms and conditions defined in
+ * file 'LICENSE.txt', which is part of this source code package.
+ *
+ * Created by Valmar Junior on 26/05/17.
+ **/
 
-fun main(args: Array<String>) = println("Hello World, I'm an Kotlin file :D");
-
-
-// ------------------------------ Vals and vars ---------------------------------------------------
-/**
- * O "var" È uma vari·vel mut·vel (din‚mica, n„o constante), o que quer dizer,
- *que a vari·vel pode ser reatribuÌda.
- */
-
-var variavelUm = "Kotlin"
-// Obs.: "var" pode ser inicalizado em um momento apÛs a declaraÁ„o
-var variavelDois: String
-variavelDois = "Kotlin"
-
-var variavelTres = "kotlin"
-variavelTres = "mais kotlin"
-
-/**
- * O "val" È usado para declarar vari·veis de "apenas leitura" => Equivalene ao "final" do Java
- */
+fun main(args: Array<String>) = println("Ol√°")
 
 
-val variavelQuatro = "kotlin"
+fun ola(): Unit {
 
-// ---------------------------------------------------------------------------------------------
+    //------------------------------------------------------------------------------------------------------------------
+
+    /**
+     * Vari√°veis do "tipo" var s√£o vari√°veis mut√°veis e podem ser modificadas em outras partes do c√≥digo e
+     * podem ser decladas da seguintes maneiras:
+     *
+     * var variavelUm: String
+     * variavelUm = "";
+     */
+    var variavelDois: String = "Eita"
 
 
-// ------------------------------ InferÍncia de Tipo --------------------------------------------
-/**
- * O "var" È uma vari·vel mut·vel (din‚mica, n„o constante), o que quer dizer,
- *que a vari·vel pode ser reatribuÌda.
- */
+    /**
+     * Vari√°veis do tipo val se assemelham com o o FINAL do java.
+     */
+
+    val variavelTres = "Ui";
+
+    //------------------------------------------------------------------------------------------------------------------
 
 
 
-// ---------------------------------------------------------------------------------------------
+    
+}
